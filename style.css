@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    max-width: 800px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.headerli{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.textnew{
+    cursor: text;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    color: #212529;
+}
+.textnew:hover{
+    cursor: text;
+    background-color: #f8f8f8;
+}
+.textnone{
+    color: #212529;
+}
+.textnone{
+    color: #adb5bd;
+}
+.date{
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #000000;
+}
+a.logout{
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}
+a.login{
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}
+a.telegram{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+}
+a.telegram:hover{
+    color: #000000;
+    text-decoration: underline;
+}
